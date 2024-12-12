@@ -33,8 +33,14 @@ The key to everything working together and the timing is that when a key is pres
 With that being said, I hope you find it useful. Let me know if there's anything I can improve. Of course, in a larger project, this could be used with memory systems and other components. This is just a way to avoid buying the IC. :)
 
 # Generate Bitstream
-sdfsdfsdf
+If you have a Basys 3 and a keyboard with pull-down resistors on its rows, you can directly generate a bitstream using the .xcd file named "constraintsKeyReader.xcd." Simply ensure that you use the Pmod B pins on the board (refer to the FPGA manual for details) and follow this schematic:
 
+| **4x4 Keypad Layout**               |
+|-------------------------------------|
+| 1 | 2 | 3 | A |
+| 4 | 5 | 6 | B |
+| 7 | 8 | 9 | C |
+| * | 0 | # | D |
 
 # Contact
 
