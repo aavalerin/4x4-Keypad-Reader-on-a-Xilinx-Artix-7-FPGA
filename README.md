@@ -3,11 +3,11 @@ This implementation allows reading a 4x4 keypad without an external IC encoder (
 
 
 
-First of all, the external conecctions: 
-This is a comun implementation of these keyboards, and if u have been researching for a while to achieve this you wil know that the most comun way is using the rows or the columns as inputs for your microcontroller and the others as ouputs. The ones that are inouts, (rows in my case) has to have pull-down resistors (could pull-up logic, but all the module logic should be reversed). Them the outputs should be connected directly to your Microcontroller board or in our case a Field-programmable gate array (FPGA). 
+External Connections:
 
-NOTE: For my specific case I was using a Basys3 Xilinix Artix7 FPGA. 
+This is a common implementation for keypads, and if you have been researching this topic for some time, you are likely aware that the most common approach involves using either the rows or columns as inputs to the microcontroller, with the remaining lines used as outputs. The lines configured as inputs (in my case, the rows) require pull-down resistors (alternatively, pull-up resistors can be used, but this would reverse the logic of the entire module). The output lines should be connected directly to the microcontroller board, or in our case, to a Field-Programmable Gate Array (FPGA).
 
+NOTE: For this particular implementation, I used the Basys 3 Xilinx Artix-7 FPGA
 
 Module Parts:
 
