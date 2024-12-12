@@ -34,13 +34,13 @@ The key to everything working together and the timing is that when a key is pres
 
 # Generate Bitstream
 If you have a Basys 3 board and a keypad with pull-down resistors on its rows, you can directly generate a bitstream using the "constraintsKeyReader.xcd" file. Just make sure to use the Pmod B pins on the board (check the FPGA manual for details) and follow this table/schematic:
-
-|row [0] / A14 | 1 | 2 | 3 | A |
+||col [0] / C16|col [1] / C15|col [2] / A17|col [3] / A15|
 |---|---|---|---|---|
+|row [0] / A14 | 1 | 2 | 3 | A |
 |row [1] / A16| 4 | 5 | 6 | B |
 |row [2] / B15| 7 | 8 | 9 | C |
 |row [3] / B16| # | 0 | * | D |
-||col [0] / C16|col [1] / C15|col [2] / A17|col [3] / A15|
+
 
 Note: This can be confusing, as keypads may have different numbering and labels depending on the model you have, so be cautious. If the rows and columns aren’t connected to the FPGA as specified, the decoder module might output incorrect values, such as showing "D" when you press "1."
 
