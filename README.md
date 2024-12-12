@@ -37,3 +37,8 @@ Decoder for the Button Pressed: This is essentially a simple if/else logic syste
 The key to everything working together and the timing is that when a key is pressed, human reaction time is obviously slow. So, at some point, the output columns match and generate a row 1 signal. Because the debouncer system operates at a faster speed (1kHz), it gives a clean signal for the row while the column has not yet changed (500Hz). At this specific point, the combinational result from the decoder is captured and saved in a D Flip-Flop, which functions as memory.
 
 With that being said, I hope you find it useful. Let me know if there's anything I can improve. Of course, in a larger project, this could be used with memory systems and other components. This is just a way to avoid buying the IC. :)
+
+
+
+
+You can reach me at: [yourname@example.com](mailto:yourname@example.com)
