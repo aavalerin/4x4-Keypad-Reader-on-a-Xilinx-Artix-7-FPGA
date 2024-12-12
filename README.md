@@ -19,7 +19,7 @@ There are three main parts: Control of the Output Columns, Debouncing of the Row
 
 Control of the Output Columns: This part is a sequential circuit/design. It basically turns on/off each column one at a time at a specific frequency of 500Hz. This module is always active.
 
-Debouncing of the Row Input Signals: The debouncer is also a sequential circuit and is a very common design found in almost every Digital Electronics textbook or tutorial. What it does is manage the signal from a physical switch at a lower frequency, converting a noisy signal into a clean, stable signal. If you're not familiar with it, you should check it out on YouTube—there are great explanations available. This module detects a clear "1" for each input row at a frequency of 1kHz.
+Debouncing of the Row Input Signals: The debouncer is also a sequential circuit and is a very common design found in almost every Digital Electronics textbook or tutorial. What it does is manage the signal from a physical switch at a lower frequency, converting a noisy signal into a clean and stable signal. If you're not familiar with it, you should check it out on YouTube—there are great explanations available. This module detects a clear "1" for each input row at a frequency of 1kHz.
 
 Decoder for the Button Pressed: This is essentially a simple if/else logic system. Given a specific row and column number, it returns which key was pressed ("1,2,3,4,5,6,7,8,9,A,B,C,D,*,#"). This module is combinational and really simple.
 
