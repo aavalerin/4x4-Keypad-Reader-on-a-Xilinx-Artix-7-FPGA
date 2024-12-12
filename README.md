@@ -37,5 +37,5 @@ With that being said, I hope you find it useful. Let me know if there's anything
 
  Feel free to contact me at: 
 
-    aavalerin@estudiantec.com
+    06aaronvalerin@gmail.com
 
