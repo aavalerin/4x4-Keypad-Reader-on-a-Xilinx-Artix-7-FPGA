@@ -13,7 +13,7 @@ NOTE: For this particular implementation, I used the Basys 3 Xilinx Artix-7 FPGA
 
 Module Parts:
 
-Diagrams: There is a PDF with all the diagrams explained, named "KeyReaderDesignDiagrams," if you want to check it out. It's pretty cool! I made it on Proteus because it was part of the full documentation of a larger project I had to complete in a Lab course. However, the explanation there is in Spanish. So, here's a quick explanation of how it works:
+Diagrams: There is a PDF with all the diagrams explained, named "KeyReaderDesignDiagrams" if you want to check it out. It's pretty cool! I made it on Proteus because it was part of the full documentation of a larger project I had to complete in a Lab course. However, the explanation there is in Spanish. So, here's a quick explanation of how it works:
 
 There are three main parts: Control of the Output Columns, Debouncing of the Row Input Signals, and the Decoder for the Button Pressed.
 
