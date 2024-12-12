@@ -41,4 +41,4 @@ With that being said, I hope you find it useful. Let me know if there's anything
 
 
 
-You can reach me at: [yourname@example.com](mailto:yourname@example.com)
+You can reach me at: [aavalerin@estudiantec.cr](aavalerin@estudiantec.cr)
