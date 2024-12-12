@@ -3,6 +3,19 @@ This implementation allows reading a 4x4 keypad without an external IC encoder (
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 External Connections:
 
 This is a common implementation for keypads, and if you have been researching this topic for some time, you are likely aware that the most common approach involves using either the rows or columns as inputs to the microcontroller, with the remaining lines used as outputs. The lines configured as inputs (in my case, the rows) require pull-down resistors (alternatively, pull-up resistors can be used, but this would reverse the logic of the entire module). The output lines should be connected directly to the microcontroller board, or in our case, to a Field-Programmable Gate Array (FPGA).
