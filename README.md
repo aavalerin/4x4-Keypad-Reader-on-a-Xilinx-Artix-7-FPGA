@@ -37,9 +37,9 @@ If you have a Basys 3 and a keyboard with pull-down resistors on its rows, you c
 
 |row [0]|1|2|3|A|
 |---|---|---|---|---|
-|row [1]|4|5|6|B|
-|row [2]|7|8|9|C|
-|row [3]|#|0|*|D|
+|row [1]| 4 | 5 | 6 | B |
+|row [2]| 7 | 8 | 9 | C |
+|row [3]| # | 0 | * | D |
 ||col [0]|col [1]|col [2]|col [3]|
 # Contact
 
