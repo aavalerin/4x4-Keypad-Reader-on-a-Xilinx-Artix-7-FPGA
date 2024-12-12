@@ -41,7 +41,6 @@ If you have a Basys 3 and a keyboard with pull-down resistors on its rows, you c
 |Key|1|2|3|A|4|5|6|B|
 |Key|1|2|3|A|4|5|6|B|
 |Key|1|2|3|A|4|5|6|B|
-|---|---|---|---|---|---|---|---|---|
 # Contact
 
  Feel free to contact me at: 
