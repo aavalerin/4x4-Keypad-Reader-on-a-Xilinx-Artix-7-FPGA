@@ -39,6 +39,9 @@ The key to everything working together and the timing is that when a key is pres
 With that being said, I hope you find it useful. Let me know if there's anything I can improve. Of course, in a larger project, this could be used with memory systems and other components. This is just a way to avoid buying the IC. :)
 
 
+Contact
+-------
+ Feel free to contact me at: 
 
+    aavalerin@estudiantec.com
 
-You can reach me at: [aavalerin@estudiantec.cr](aavalerin@estudiantec.cr)
