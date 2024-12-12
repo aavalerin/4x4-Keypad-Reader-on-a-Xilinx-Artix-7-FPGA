@@ -33,7 +33,7 @@ The key to everything working together and the timing is that when a key is pres
 
 
 # Generate Bitstream
-If you have a Basys 3 and a keyboard with pull-down resistors on its rows, you can directly generate a bitstream using the .xcd file named "constraintsKeyReader.xcd." Simply ensure that you use the Pmod B pins on the board (refer to the FPGA manual for details) and follow this schematic:
+If you have a Basys 3 board and a keypad with pull-down resistors on its rows, you can directly generate a bitstream using the "constraintsKeyReader.xcd" file. Just make sure to use the Pmod B pins on the board (check the FPGA manual for details) and follow this table/schematic:
 
 |row [0] / A14 | 1 | 2 | 3 | A |
 |---|---|---|---|---|
