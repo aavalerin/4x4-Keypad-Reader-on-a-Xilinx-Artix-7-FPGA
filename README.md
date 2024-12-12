@@ -30,7 +30,7 @@ Decoder for the Button Pressed: This is essentially a simple if/else logic syste
 
 The key to everything working together and the timing is that when a key is pressed, human reaction time is obviously slow. So, at some point, the output columns match and generate a row 1 signal. Because the debouncer system operates at a faster speed (1kHz), it gives a clean signal for the row while the column has not yet changed (500Hz). At this specific point, the combinational result from the decoder is captured and saved in a D Flip-Flop, which functions as memory.
 
-With that being said, I hope you find it useful. Let me know if there's anything I can improve. Of course, in a larger project, this could be used with memory systems and other components. This is just a way to avoid buying the IC. :)
+
 
 # Generate Bitstream
 If you have a Basys 3 and a keyboard with pull-down resistors on its rows, you can directly generate a bitstream using the .xcd file named "constraintsKeyReader.xcd." Simply ensure that you use the Pmod B pins on the board (refer to the FPGA manual for details) and follow this schematic:
@@ -42,18 +42,13 @@ If you have a Basys 3 and a keyboard with pull-down resistors on its rows, you c
 |row [3] / B16| # | 0 | * | D |
 ||col [0] / C16|col [1] / C15|col [2] / A17|col [3] / A15|
 
+Note: This can be confusing, as keypads may have different numbering and labels depending on the model you have, so be cautious. If the rows and columns aren’t connected to the FPGA as specified, the decoder module might output incorrect values, such as showing "D" when you press "1."
 
-|row [0] / A14 | 1 | 2 | 3 | A |
-|---|---|---|---|---|
-|row [1] / A16| 4 | 5 | 6 | B |
-|---|---|---|---|---|
-|row [2] / B15| 7 | 8 | 9 | C |
-|---|---|---|---|---|
-|row [3] / B16| # | 0 | * | D |
-|---|---|---|---|---|
-|col [0] / C16|col [1] / C15|col [2] / A17|col [3] / A15|   |
+When using the Basys3 board, you will notice that this connection is simple, intuitive, and easy to follow.
 
-Note: If you don´t connect yhe rows/cols in this order to the FPGA Pin 
+
+With that being said, I hope you find it useful. Let me know if there's anything I can improve. Of course, in a larger project, this could be used with memory systems and other components. This is just a way to avoid buying the IC. :)
+
 
 # Contact
 
