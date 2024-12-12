@@ -54,7 +54,7 @@ With that being said, I hope you find it useful. Let me know if there's anything
 
 Sources
 ==============
-I've had huge help designing these module with these sources: 
+Reading these sources helped me designing these module: 
 
 https://www.alldatasheet.com/datasheet-pdf/view/9279/NSC/MM74C922.html
 
