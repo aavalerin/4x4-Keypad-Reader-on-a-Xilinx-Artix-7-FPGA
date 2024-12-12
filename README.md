@@ -37,7 +37,7 @@ If you have a Basys 3 and a keyboard with pull-down resistors on its rows, you c
 
 | **4x4 Keypad Layout**               |
 |-------------------------------------|
-| 1 | 2 | 3 | A |
+row[0] --> | 1 | 2 | 3 | A |
 | 4 | 5 | 6 | B |
 | 7 | 8 | 9 | C |
 | * | 0 | # | D |
