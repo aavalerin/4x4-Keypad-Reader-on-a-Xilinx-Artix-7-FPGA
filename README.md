@@ -44,6 +44,14 @@ When using the Basys3 board, you will notice that this connection is simple, int
 
 With that being said, I hope you find it useful. Let me know if there's anything I can improve. Of course, in a larger project, this could be used with memory systems and other components. This is just a way to avoid buying the IC. :)
 
+Sources
+==============
+Reading these sources helped me designing these module: 
+
+https://www.alldatasheet.com/datasheet-pdf/view/9279/NSC/MM74C922.html
+
+https://github.com/aanunez/KeypadScanner
+
 
 # Contact
 
@@ -52,10 +60,4 @@ With that being said, I hope you find it useful. Let me know if there's anything
     06aaronvalerin@gmail.com
 
 
-Sources
-==============
-Reading these sources helped me designing these module: 
 
-https://www.alldatasheet.com/datasheet-pdf/view/9279/NSC/MM74C922.html
-
-https://github.com/aanunez/KeypadScanner
