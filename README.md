@@ -35,7 +35,7 @@ With that being said, I hope you find it useful. Let me know if there's anything
 # Generate Bitstream
 If you have a Basys 3 and a keyboard with pull-down resistors on its rows, you can directly generate a bitstream using the .xcd file named "constraintsKeyReader.xcd." Simply ensure that you use the Pmod B pins on the board (refer to the FPGA manual for details) and follow this schematic:
 
-| Keypad 4x4 Connections |
+| Keypad 4x4 Connections (Merged)|
 |---|---|---|---|---|
 |row [0] / A14 | 1 | 2 | 3 | A |
 |row [1] / A16| 4 | 5 | 6 | B |
