@@ -2,11 +2,6 @@
 This implementation allows reading a 4x4 keypad without an external IC encoder (like the 74C922/23). It performs the same function as the IC, but in a simpler form. This module can be used in various projects, such as a calculator. A detailed explanation is provided in the README file.
 
 
-
-
-
-
-
 # How it works
 
 
@@ -56,3 +51,10 @@ With that being said, I hope you find it useful. Let me know if there's anything
 
     06aaronvalerin@gmail.com
 
+
+Sources
+==============
+I've had huge help designing these module with these sources: 
+
+https://www.alldatasheet.com/datasheet-pdf/view/9279/NSC/MM74C922.html
+https://github.com/aanunez/KeypadScanner
