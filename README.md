@@ -34,7 +34,7 @@ If you have a Basys 3 board and a keypad with pull-down resistors on its rows, y
 |row [0] / A14 | 1 | 2 | 3 | A |
 |row [1] / A16| 4 | 5 | 6 | B |
 |row [2] / B15| 7 | 8 | 9 | C |
-|row [3] / B16| # | 0 | * | D |
+|row [3] / B16| * | 0 | # | D |
 
 
 Note: This can be confusing, as keypads may have different numbering and labels depending on the model you have, so be cautious. If the rows and columns aren’t connected to the FPGA as specified, the decoder module might output incorrect values, such as showing "D" when you press "1."
